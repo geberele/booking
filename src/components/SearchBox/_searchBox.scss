@@ -1,0 +1,9 @@
+.search-box {
+  background: $color-yellow;
+  margin: 100px auto;
+  padding: 24px;
+
+  @media (min-width: $breakpoint-tablet) {
+    width: 512px;
+  }
+}
