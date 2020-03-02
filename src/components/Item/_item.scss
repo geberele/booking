@@ -1,0 +1,57 @@
+.item {
+  background: $color-white;
+  border-top: 1px solid $color-grey-2;
+  color: $color-grey-3;
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  padding: 9px 0;
+  width: 100%;
+
+  &:first-child {
+    border: none;
+  }
+
+  &--focus {
+    background: $color-blu-2;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &__place {
+    float: left;
+    padding: 8px 16px;
+  }
+
+  &__pill {
+    background-color: $color-blu;
+    border-radius: 4px;
+    color: $color-white;
+    display: inline-block;
+    font-family: $font-main;
+    font-size: 12px;
+    line-height: 1.25rem;
+    min-width: 60px;
+    padding: 1px 4px;
+    text-align: center;
+  }
+
+  &__location {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding: 0;
+
+    &-name {
+      font-size: 14px;
+      line-height: 1.25rem;
+    }
+
+    &-city {
+      font-size: 12px;
+      line-height: 1.25rem;
+    }
+  }
+}

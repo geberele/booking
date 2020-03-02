@@ -1,13 +1,13 @@
 input {
-  height: 30px;
-  font-size: 1rem;
-  border: 1px solid $color-yellow-2;
-  width: calc(100% - 34px);
   -webkit-appearance: none;
+  border: 1px solid $color-yellow-2;
   border-radius: 4px;
-  padding: 8px 16px;
+  font-size: 1rem;
   font-weight: 400;
+  height: 30px;
   line-height: 1.5rem;
+  padding: 8px 16px;
+  width: calc(100% - 34px);
 
   &::placeholder {
     color: $color-grey-2;
@@ -16,9 +16,9 @@ input {
 }
 
 label {
-  display: block;
-  padding: 0 0 4px;
   color: $color-grey;
+  display: block;
   font-size: 14px;
   line-height: 1.25rem;
+  padding: 0 0 4px;
 }
