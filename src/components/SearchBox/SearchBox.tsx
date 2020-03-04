@@ -7,7 +7,7 @@ export const SearchBox = () => {
   const [results, setResults] = useState<IResults[]>([])
   const [inputValue, setInputValue] = useState<string>('')
 
-  const handleOnChange = (e: React.ChangeEvent<HTMLInputElement>)  => {
+  const handleOnChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value
     setInputValue(value)
     if  (value.length >= 2) {
@@ -22,14 +22,14 @@ export const SearchBox = () => {
     }
   }
 
-  const handleOnClick = (value: string) =>  {
+  const handleOnClick = (value: string) => {
     setInputValue(value)
     setResults([])
   }
 
   return (
     <div className="search-box">
-      <h2>Where are  you going?</h2>
+      <h2>Where are you going?</h2>
       <label
         id="search-box-label"
         htmlFor="search-box-input"

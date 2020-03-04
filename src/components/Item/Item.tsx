@@ -2,7 +2,7 @@ import { IResults } from '../../api/search'
 import React, { useState } from 'react'
 import classNames from 'classnames'
 
-interface IItemProps {
+export interface IItemProps {
   result: IResults
   onClick: (value: string) => void
 }

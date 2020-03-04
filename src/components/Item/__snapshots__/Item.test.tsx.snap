@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item renders with "No results found" 1`] = `
+<DocumentFragment>
+  <li
+    aria-label="No results found"
+    class="item"
+    tabindex="0"
+  >
+    <div
+      class="item__place"
+    >
+      No results found
+    </div>
+  </li>
+</DocumentFragment>
+`;
+
+exports[`Item renders with all the props 1`] = `
+<DocumentFragment>
+  <li
+    aria-label="Milan Malpensa Airport"
+    class="item"
+    tabindex="0"
+  >
+    <div
+      class="item__place"
+    >
+      <span
+        class="item__pill"
+      >
+        Airport
+      </span>
+    </div>
+    <div
+      class="item__location"
+    >
+      <span
+        class="item__location-name"
+      >
+        Milan Malpensa Airport MXP
+      </span>
+      <span
+        class="item__location-city"
+      >
+        Milan, Lombardy, Italy
+      </span>
+    </div>
+  </li>
+</DocumentFragment>
+`;

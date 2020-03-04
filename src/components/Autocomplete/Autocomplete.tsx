@@ -2,7 +2,7 @@ import { IResults } from '../../api/search'
 import React from 'react'
 import { Item } from '../Item/Item'
 
-interface IAutocomplete  {
+export interface IAutocomplete  {
   results: IResults[]
   onClick: (value: string) => void
 }

@@ -6,7 +6,7 @@ exports[`SearchBox renders 1`] = `
     class="search-box"
   >
     <h2>
-      Where are  you going?
+      Where are you going?
     </h2>
     <label
       for="search-box-input"
@@ -21,6 +21,7 @@ exports[`SearchBox renders 1`] = `
       id="search-box-input"
       placeholder="city, airport, station, region and district..."
       type="text"
+      value=""
     />
   </div>
 </DocumentFragment>

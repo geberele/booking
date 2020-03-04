@@ -36,13 +36,13 @@ export const getSearchResults = (term: string, rows: number = 6): Promise<IRespo
     })
 )
 
-const mapResults = (res: any) => res?.results?.docs.map((el: any): IResults => ({
-  country: el.country,
-  city: el.city,
-  region: el.region,
-  name: el.name,
-  iata: el.iata,
-  placeType: el.placeType ? getType(el.placeType) : el.placeType,
+export const mapResults = (res: any) => res?.results?.docs.map((el: any): IResults => ({
+  country: el?.country || '',
+  city: el?.city || '',
+  region: el?.region || '',
+  name: el?.name || '',
+  iata: el?.iata || '',
+  placeType: el?.placeType ? getType(el.placeType) : '',
 })) || []
 
 export  const getType = (placeType: string): string => {

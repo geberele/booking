@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Autocomplete renders 1`] = `
+<DocumentFragment>
+  <div
+    class="autocomplete"
+    data-testid="autocomplete"
+  >
+    <ol
+      class="autocomplete__list"
+    >
+      <li
+        aria-label="Milan Malpensa Airport"
+        class="item"
+        tabindex="0"
+      >
+        <div
+          class="item__place"
+        >
+          <span
+            class="item__pill"
+          >
+            Airport
+          </span>
+        </div>
+        <div
+          class="item__location"
+        >
+          <span
+            class="item__location-name"
+          >
+            Milan Malpensa Airport MXP
+          </span>
+          <span
+            class="item__location-city"
+          >
+            Milan, Lombardy, Italy
+          </span>
+        </div>
+      </li>
+      <li
+        aria-label="Milan"
+        class="item"
+        tabindex="0"
+      >
+        <div
+          class="item__place"
+        >
+          <span
+            class="item__pill"
+          >
+            City
+          </span>
+        </div>
+        <div
+          class="item__location"
+        >
+          <span
+            class="item__location-name"
+          >
+            Milan
+          </span>
+          <span
+            class="item__location-city"
+          >
+            Lombardia, Italy
+          </span>
+        </div>
+      </li>
+      <li
+        aria-label="Milan Linate Airport"
+        class="item"
+        tabindex="0"
+      >
+        <div
+          class="item__place"
+        >
+          <span
+            class="item__pill"
+          >
+            Airport
+          </span>
+        </div>
+        <div
+          class="item__location"
+        >
+          <span
+            class="item__location-name"
+          >
+            Milan Linate Airport LIN
+          </span>
+          <span
+            class="item__location-city"
+          >
+            Milan, Lombardy, Italy
+          </span>
+        </div>
+      </li>
+      <li
+        aria-label="Bergamo Airport"
+        class="item"
+        tabindex="0"
+      >
+        <div
+          class="item__place"
+        >
+          <span
+            class="item__pill"
+          >
+            Airport
+          </span>
+        </div>
+        <div
+          class="item__location"
+        >
+          <span
+            class="item__location-name"
+          >
+            Bergamo Airport BGY
+          </span>
+          <span
+            class="item__location-city"
+          >
+            Bergamo, Lombardy, Italy
+          </span>
+        </div>
+      </li>
+      <li
+        aria-label="Milan - Central Train Station"
+        class="item"
+        tabindex="0"
+      >
+        <div
+          class="item__place"
+        >
+          <span
+            class="item__pill"
+          >
+            Other
+          </span>
+        </div>
+        <div
+          class="item__location"
+        >
+          <span
+            class="item__location-name"
+          >
+            Milan - Central Train Station
+          </span>
+          <span
+            class="item__location-city"
+          >
+            Milan, Lombardy, Italy
+          </span>
+        </div>
+      </li>
+      <li
+        aria-label="Gallaratese"
+        class="item"
+        tabindex="0"
+      >
+        <div
+          class="item__place"
+        >
+          <span
+            class="item__pill"
+          >
+            Other
+          </span>
+        </div>
+        <div
+          class="item__location"
+        >
+          <span
+            class="item__location-name"
+          >
+            Gallaratese
+          </span>
+          <span
+            class="item__location-city"
+          >
+            Milano, Lombardy, Italy
+          </span>
+        </div>
+      </li>
+    </ol>
+  </div>
+</DocumentFragment>
+`;
